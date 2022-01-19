@@ -1,0 +1,10 @@
+;; helloworld.g++
+(deffun sumup (x)
+ (if (equal x 3.1203) 
+ 1 
+ (+ x (sumup (- x 1)))
+ )
+ " test "
+ )
+
+ (list 1 2 13)
